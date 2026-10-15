@@ -9,7 +9,7 @@ GitHub Pages publishes the main branch, root folder (/), with HTTPS.
 ## Pages
 
 - index.html — name, headline and one featured project
-- about.html — background, experience and GIS Technician goal from the supplied resume
+- about.html — background, documented experience and interest in LCRA’s remote sensing team
 - projects.html — three project cards, each linking to its own page
 - project-1.html — Vending Machine Tracker, source-point Leaflet map and table
 - project-2.html — county-level population cartography and supplied StoryMap embed
@@ -31,4 +31,4 @@ Ethan authorized AI drafting for the in-class build and then explicitly asked to
 
 ## Visual design
 
-Fixed dark interface with black surfaces, Aggie maroon (#500000), an original survey mark and source-point schematic, layer display controls, and shared responsive typography. The vector artwork comes from the portfolio’s own GNSS records. Original coursework figures and the redacted resume PDF retain their source content.
+Fixed dark interface with black surfaces, Aggie maroon (#500000), an original survey mark and source-point schematic, layer display controls, and shared responsive typography. The project source-point schematic uses the portfolio’s own GNSS records. The original remote-sensing artwork and background use synthetic terrain: raster cells, contours, and LiDAR-style returns. They are illustrative, not measured data, a real location or an LCRA project. The homepage layers can be toggled independently. No reference-site code or assets are used. Original coursework figures and the redacted resume PDF retain their source content.

@@ -1,4 +1,4 @@
-/* Ethan DeMelo — an original field-atlas interface, in Aggie maroon and black. */
+/* Ethan DeMelo — an original remote-sensing field atlas, in Aggie maroon and black. */
 :root {
   color-scheme: dark;
   --black: #000000;
@@ -24,8 +24,8 @@ body {
 }
 body::before {
   content: ""; position: fixed; inset: 0; pointer-events: none; z-index: -1;
-  background-image: linear-gradient(#171717 1px, transparent 1px), linear-gradient(90deg, #171717 1px, transparent 1px);
-  background-size: 84px 84px; opacity: .38;
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, .18), transparent 70%), url("assets/rs-terrain.svg");
+  background-size: cover; background-position: center top; opacity: 1;
 }
 main { flex: 1; min-width: 0; }
 a { color: var(--accent); text-underline-offset: 5px; }
@@ -60,10 +60,10 @@ li + li { margin-top: .45em; }
 .eyebrow { margin: 0 0 19px; color: var(--accent); font: 500 11px/1.6 var(--mono); text-transform: uppercase; letter-spacing: .16em; }
 .eyebrow::before { content: "+"; display: inline-block; margin-right: 10px; color: #f3eef0; }
 
-/* Home: a field-data instrument beside a clear personal introduction. */
+/* Home: an original remote-sensing layer study beside the introduction. */
 .hero { display: grid; grid-template-columns: 1.08fr 1fr; align-items: center; gap: 64px; padding-block: 78px 70px; }
 .hero > *, .two-col > *, .project-body > *, .project-grid > *, .project-card > * { min-width: 0; }
-.hero-copy { position: relative; }
+.hero-copy { position: relative; text-shadow: 0 2px 20px #000000; }
 .hero-kicker { display: inline-block; margin: 0 0 28px; padding: 6px 11px; border-left: 3px solid #b8485e; background: #1d050a; color: #e8cbd1; font: 500 10px/1.6 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
 .hero h1 { margin: 0 0 30px; color: #ffffff; font: 900 clamp(64px, 8.4vw, 120px)/.92 var(--display); letter-spacing: -.065em; text-transform: uppercase; }
 .hero h1 span { display: block; }
@@ -73,7 +73,7 @@ li + li { margin-top: .45em; }
 .hero-school strong { display: block; color: #d7d2d4; font-weight: 600; }
 .hero-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
 .hero-tags span { padding: 4px 8px; color: #b9b1b4; border: 1px solid #3a3034; font: 10px/1.5 var(--mono); letter-spacing: .06em; }
-.atlas-panel { position: relative; border: 1px solid #514047; background: var(--surface); }
+.atlas-panel { position: relative; border: 1px solid #514047; background: var(--surface); box-shadow: 0 16px 70px rgba(0, 0, 0, .45); }
 .atlas-panel::before, .atlas-panel::after { content: ""; position: absolute; z-index: 2; width: 12px; height: 12px; pointer-events: none; }
 .atlas-panel::before { top: -1px; left: -1px; border-top: 2px solid var(--accent); border-left: 2px solid var(--accent); }
 .atlas-panel::after { right: -1px; bottom: -1px; border-right: 2px solid var(--accent); border-bottom: 2px solid var(--accent); }
@@ -88,6 +88,7 @@ li + li { margin-top: .45em; }
 .layer-controls button { min-height: 44px; padding: 5px 12px; border: 1px solid #55434b; background: #0a0a0a; color: #bfb9bc; cursor: pointer; font: 11px/1.4 var(--mono); }
 .layer-controls button[aria-pressed="true"] { background: #38000c; color: #ffffff; border-color: #9f4b60; }
 .atlas-caption { padding: 12px 0 0; margin: 0; color: var(--muted); font-size: 12px; }
+.atlas-caption a { display: inline-block; padding-block: 8px; }
 
 /* Page titles and content sections use the same field-sheet hierarchy. */
 .page-hero { position: relative; max-width: 1020px; padding: 68px 0 46px 24px; margin-block: 30px 10px; border-left: 3px solid var(--maroon-line); }
@@ -224,6 +225,7 @@ noscript p { padding: 20px; background: #26050f; color: #ead0d9; }
   .project-card { grid-template-columns: 230px 1fr; }
 }
 @media (max-width: 800px) {
+  body::before { background-size: auto 1100px; background-position: 62% top; }
   html { scroll-padding-top: 130px; }
   .wrap { width: calc(100% - 40px); }
   .header-inner { min-height: 78px; gap: 14px; }

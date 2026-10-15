@@ -1,4 +1,4 @@
-/* Optional, local-only display controls for the source-point schematic. */
+/* Optional, local-only display controls for the illustrative remote-sensing layer study. */
 'use strict';
 const atlasControls = document.getElementById('atlas-controls');
 if (atlasControls) {
