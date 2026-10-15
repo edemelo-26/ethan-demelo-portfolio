@@ -1,0 +1,25 @@
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Dependencies, temporary files, and build caches
+node_modules/
+.cache/
+*.log
+*.tmp
+~$*
+
+# Raw coursework and GIS project sources
+*.docx
+*.pptx
+*.zip
+*.aprx
+*.gdb/
