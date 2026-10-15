@@ -28,3 +28,7 @@ The StoryMap may require ArcGIS sign-in; the embed has an original-link fallback
 The downloadable resume uses the original resume assignment with contact links, phone/email and location fields permanently redacted at Ethan’s request. The original assignment is unchanged outside this repository. Other source assignment documents remain outside this repository. Assignment resources, AI notes and review logs remain in the parent Portfolio Assignment folder. No named reviewer persona results are claimed.
 
 Ethan authorized AI drafting for the in-class build and then explicitly asked to finish continuously, overriding the slide's one-file-per-reply instruction.
+
+## Visual design
+
+Fixed dark interface with black surfaces, Aggie maroon (#500000), an original survey mark and source-point schematic, layer display controls, and shared responsive typography. The vector artwork comes from the portfolio’s own GNSS records. Original coursework figures and the redacted resume PDF retain their source content.

@@ -4,21 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Ethan DeMelo’s coastal wetland classification lab using MNF, PPI, endmembers and Spectral Angle Mapper.">
-  <meta name="color-scheme" content="light">
+  <meta name="color-scheme" content="dark">
   <title>Coastal Wetland Classification | Ethan DeMelo</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=maroon-1">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/svg+xml" href="assets/ed-mark.svg">
+  <script src="site.js?v=maroon-1" defer></script>
 </head>
 <body id="top">
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="index.html"><span aria-hidden="true">ED</span>Ethan DeMelo</a>
+      <a class="brand" href="index.html?v=maroon-1"><img class="brand-mark" src="assets/ed-mark.svg" alt="" aria-hidden="true" width="36" height="36">Ethan DeMelo</a>
       <nav aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html" aria-current="location">Projects</a>
-        <a href="resume.html">Resume</a>
+        <a href="index.html?v=maroon-1">Home</a>
+        <a href="about.html?v=maroon-1">About</a>
+        <a href="projects.html?v=maroon-1" aria-current="location">Projects</a>
+        <a href="resume.html?v=maroon-1">Resume</a>
       </nav>
     </div>
   </header>
@@ -27,9 +30,10 @@
   <p class="eyebrow">Remote sensing / GEOG 461</p>
   <h1 id="page-title">Oil Spill Detection in Coastal Wetlands</h1>
   <p class="page-intro">Endmember-based image classification using Spectral Angle Mapper.</p>
-</section><div class="project-sections"><section aria-labelledby="problem"><h2 id="problem">The problem</h2><p>How can spectral differences help distinguish oiled coastal vegetation from other land cover? This lab used a coastal wetland image to explore endmember selection and classification uncertainty.</p></section><section aria-labelledby="role"><h2 id="role">My role</h2><p>I carried out the MNF, PPI, endmember-extraction, and SAM workflow, examined the resulting spectral curves, and interpreted the classification for my lab report.</p></section><section aria-labelledby="method"><h2 id="method">Data and method</h2><p>I used the coastal wetland imagery supplied for GEOG 461 Lab 6.</p><ol><li>Applied a Minimum Noise Fraction transformation and compared the transformed bands.</li><li>Used the Pixel Purity Index to identify candidate extreme pixels.</li><li>Selected four endmember classes with the n-D Visualizer and exported their mean spectral signatures as a spectral library.</li><li>Ran Spectral Angle Mapper and assessed the result visually.</li></ol><p class="caption">Imagery sensor and acquisition date: <span class="pending">[ADD]</span>. These are not identified in the supplied report.</p></section></div><section class="section" aria-labelledby="figure-title"><div class="section-title"><h2 id="figure-title">Classification result</h2><span class="section-number">ORIGINAL LAB FIGURE</span></div><figure class="project-figure"><img class="artifact-image" src="assets/oil-spill-sam-classification.png" alt="Final Spectral Angle Mapper classification from the coastal wetland lab, showing vegetation and oil-associated classes." loading="lazy" decoding="async"><figcaption>Figure 6, Final SAM Classification Map, from my GEOG 461 Lab 6 report.</figcaption></figure></section><div class="project-sections"><section aria-labelledby="findings"><h2 id="findings">What I found</h2><p>In my visual assessment, oil-associated classes were mainly near the coast, while the vegetation class was mostly inland. The mixed oil, water, and vegetation class was less certain because its endmember was difficult to isolate. Similar spectral signatures also created potential confusion between classes.</p><p>This was a visual assessment, not an accuracy result based on independent reference samples. No numerical accuracy measure is claimed here.</p></section><section aria-labelledby="changes"><h2 id="changes">What I would do differently</h2><p>I would refine the mixed-class endmember, document the source imagery more fully, and compare the classification with independent reference samples before reporting an accuracy measure.</p></section><section aria-labelledby="source"><h2 id="source">Project source</h2><p>GEOG 461 Lab 6, “Endmember-Based Classification for Oil Spill Detection.” The classification figure is reproduced from my report. The reflection describes proposed future improvements.</p></section><nav class="actions project-navigation" aria-label="Project navigation">
-  <a class="text-link" href="projects.html">All projects</a>
-  <a class="text-link" href="resume.html">View my resume <span aria-hidden="true">→</span></a>
+</section>
+<nav class="page-contents" aria-label="On this project page"><a href="#problem">Problem</a><a href="#role">My role</a><a href="#method">Method</a><a href="#figure-title">Result</a><a href="#findings">Findings</a><a href="#changes">Next time</a></nav><div class="project-sections"><section aria-labelledby="problem"><h2 id="problem">The problem</h2><p>How can spectral differences help distinguish oiled coastal vegetation from other land cover? This lab used a coastal wetland image to explore endmember selection and classification uncertainty.</p></section><section aria-labelledby="role"><h2 id="role">My role</h2><p>I carried out the MNF, PPI, endmember-extraction, and SAM workflow, examined the resulting spectral curves, and interpreted the classification for my lab report.</p></section><section aria-labelledby="method"><h2 id="method">Data and method</h2><p>I used the coastal wetland imagery supplied for GEOG 461 Lab 6.</p><ol><li>Applied a Minimum Noise Fraction transformation and compared the transformed bands.</li><li>Used the Pixel Purity Index to identify candidate extreme pixels.</li><li>Selected four endmember classes with the n-D Visualizer and exported their mean spectral signatures as a spectral library.</li><li>Ran Spectral Angle Mapper and assessed the result visually.</li></ol><p class="caption">Imagery sensor and acquisition date: <span class="pending">[ADD]</span>. These are not identified in the supplied report.</p></section></div><section class="section" aria-labelledby="figure-title"><div class="section-title"><h2 id="figure-title">Classification result</h2><span class="section-number">ORIGINAL LAB FIGURE</span></div><figure class="project-figure"><img class="artifact-image" src="assets/oil-spill-sam-classification.png" alt="Final Spectral Angle Mapper classification from the coastal wetland lab, showing vegetation and oil-associated classes." loading="lazy" decoding="async"><figcaption>Figure 6, Final SAM Classification Map, from my GEOG 461 Lab 6 report.</figcaption></figure></section><div class="project-sections"><section aria-labelledby="findings"><h2 id="findings">What I found</h2><p>In my visual assessment, oil-associated classes were mainly near the coast, while the vegetation class was mostly inland. The mixed oil, water, and vegetation class was less certain because its endmember was difficult to isolate. Similar spectral signatures also created potential confusion between classes.</p><p>This was a visual assessment, not an accuracy result based on independent reference samples. No numerical accuracy measure is claimed here.</p></section><section aria-labelledby="changes"><h2 id="changes">What I would do differently</h2><p>I would refine the mixed-class endmember, document the source imagery more fully, and compare the classification with independent reference samples before reporting an accuracy measure.</p></section><section aria-labelledby="source"><h2 id="source">Project source</h2><p>GEOG 461 Lab 6, “Endmember-Based Classification for Oil Spill Detection.” The classification figure is reproduced from my report. The reflection describes proposed future improvements.</p></section><nav class="actions project-navigation" aria-label="Project navigation">
+  <a class="text-link" href="projects.html?v=maroon-1">All projects</a>
+  <a class="text-link" href="resume.html?v=maroon-1">View my resume <span aria-hidden="true">→</span></a>
 </nav></div>
   </div></main>
   <footer class="site-footer">
