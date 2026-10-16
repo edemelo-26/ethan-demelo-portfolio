@@ -3,95 +3,93 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ethan DeMelo’s ongoing capstone work in evidence intake, rainfall data quality checks, and reproducibility review.">
+  <meta name="description" content="Ethan DeMelo’s research verification and reproducibility across environmental, detection, livestock and geospatial work for a USDA client capstone.">
   <meta name="color-scheme" content="dark">
-  <title>Screwworm Evidence &amp; Data QA | Ethan DeMelo</title>
+  <title>Screwworm Research Verification | Ethan DeMelo</title>
 
-  <link rel="stylesheet" href="style.css?v=capstone-1">
+  <link rel="stylesheet" href="style.css?v=readable-3">
   <meta name="theme-color" content="#000000">
   <link rel="icon" type="image/svg+xml" href="assets/ed-mark.svg">
-  <script src="site.js?v=capstone-1" defer></script>
+  <script src="site.js?v=readable-3" defer></script>
 </head>
 <body id="top">
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="index.html?v=capstone-1"><img class="brand-mark" src="assets/ed-mark.svg" alt="" aria-hidden="true" width="36" height="36">Ethan DeMelo</a>
+      <a class="brand" href="index.html?v=readable-3"><img class="brand-mark" src="assets/ed-mark.svg" alt="" aria-hidden="true" width="36" height="36">Ethan DeMelo</a>
       <nav aria-label="Main navigation">
-        <a href="index.html?v=capstone-1">Home</a>
-        <a href="about.html?v=capstone-1">About</a>
-        <a href="projects.html?v=capstone-1" aria-current="location">Projects</a>
-        <a href="resume.html?v=capstone-1">Resume</a>
+        <a href="index.html?v=readable-3">Home</a>
+        <a href="about.html?v=readable-3">About</a>
+        <a href="projects.html?v=readable-3" aria-current="location">Projects</a>
+        <a href="resume.html?v=readable-3">Resume</a>
       </nav>
     </div>
   </header>
-  <main id="main">
-    <div class="wrap">
-      <section class="page-hero" aria-labelledby="page-title">
-        <p class="eyebrow">Capstone / GEOG 476 / Fall 2026</p>
-        <h1 id="page-title">Screwworm Evidence &amp; Data QA</h1>
-        <p class="page-intro">Checking whether contributed GIS and environmental evidence can be reproduced and used together without losing its source meaning.</p>
+  <main id="main"><div class="wrap">
+    <section class="page-hero" aria-labelledby="page-title">
+      <p class="eyebrow">GEOG 476 client project / Fall 2026 / Ongoing</p>
+      <h1 id="page-title">New World Screwworm:<br>Research Verification &amp; Reproducibility</h1>
+      <p class="page-intro">I verify research across the team’s environmental, detection, livestock and geospatial workstreams, reproduce results, and return documented findings for the shared intelligence assessment.</p>
+    </section>
+    <div class="project-context"><dl><div><dt>Client identified in the brief</dt><dd>USDA</dd></div><div><dt>Imagery route</dt><dd>NGA Tearline program</dd></div><div><dt>My role</dt><dd>Ingestor · Research verification and integration</dd></div><div><dt>Team’s intended product</dt><dd>Unclassified GEOINT intelligence estimate</dd></div></dl></div>
+    <nav class="page-contents" aria-label="On this project page"><a href="#purpose">Purpose</a><a href="#role">My responsibility</a><a href="#workstreams">Research coverage</a><a href="#results">Reproduced results</a><a href="#delivery">Hub returns</a><a href="#status">Current work</a></nav>
+    <div class="project-sections">
+      <section aria-labelledby="purpose"><h2 id="purpose">Who the work is for, and why</h2>
+        <p>The course brief identifies USDA as the client and NGA’s Tearline program as the route for commercial imagery. Our team is investigating how geographic conditions, livestock networks, environmental conditions and surveillance could support competing explanations of screwworm transmission pathways from Guatemala through Mexico toward South Texas.</p>
+        <p>The intended audience is a decision-maker who needs a defensible intelligence estimate: an executive assessment, chronology, geospatial analysis, competing hypotheses, an evidence matrix, justified confidence and explicit information gaps. The brief also calls for methods that later student and graduate research teams can carry forward.</p>
+        <p class="caption">Project purpose and audience: original GEOG 476 “New World Screwworm Transmission Pathways” brief, supplied through the Hub; pages 1–8. The client project and final assessment remain in progress.</p>
       </section>
-      <p class="project-status"><strong>Ongoing team project.</strong> My role is Ingestor: evidence intake and reproducibility review. The rainfall comparison is awaiting the project lead’s review; the broader research remains in progress. Status checked 16 October 2026.</p>
-      <nav class="page-contents" aria-label="On this project page"><a href="#problem">Problem</a><a href="#role">My role</a><a href="#method">Method</a><a href="#evidence">Evidence</a><a href="#findings">Findings</a><a href="#changes">Next steps</a></nav>
-      <div class="project-sections">
-        <section aria-labelledby="problem">
-          <h2 id="problem">The problem</h2>
-          <p>Our team is examining geographic, environmental, livestock-system, and surveillance evidence for a New World screwworm capstone. Contributor files can use different units, reporting periods, spatial supports, and quality flags. Those differences need to remain visible when evidence moves into a shared analysis.</p>
-          <p>A rainfall pilot made that problem concrete: a missing daily reading, a questioned observation, and an estimated value need different treatment. Replacing a blank with zero or silently relabeling an estimate would change what the record means.</p>
-        </section>
-        <section aria-labelledby="role">
-          <h2 id="role">My role</h2>
-          <p>I work as the team’s Ingestor, using an AI-assisted workflow to inspect contributor packages, check provenance and compatibility, reproduce supplied processing, and document limitations for review. Teammates contribute the source analyses; my contribution is their reproducible examination and qualification.</p>
-          <p>For my Draft 2 report, I reran a retained radar workflow and checked its calculations using separate routines with Codex assistance. Other intake work includes checking table arithmetic and confirming that rebuilt outputs match the supplied release.</p>
-        </section>
-        <section aria-labelledby="method">
-          <h2 id="method">Data and method</h2>
-          <p>My bounded example was a station-level rainfall pilot for Hondo, Texas, focused on 14 missing days in June 2026.</p>
-          <p>The rainfall example used contributor-supplied station records from <a href="https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily">NOAA GHCN-Daily</a> and retained <a href="https://www.nssl.noaa.gov/projects/mrms/operational/tables.php">MRMS RadarOnly_QPE_24H</a> precipitation estimates. I retained the supplied native grid definition and checked units, quality flags, date alignment, and the difference between station and raster-cell measurements.</p>
-          <ol class="evidence-workflow">
-            <li><span class="workflow-number">01 / PRESERVE</span><strong>Keep the source</strong><p>Record source versions, contributor credit, and SHA-256 hashes.</p></li>
-            <li><span class="workflow-number">02 / CHECK</span><strong>Inspect compatibility</strong><p>Check schemas, units, dates, missingness, and spatial support.</p></li>
-            <li><span class="workflow-number">03 / REPRODUCE</span><strong>Compare outputs</strong><p>Rerun the bounded workflow and compare its saved results.</p></li>
-            <li><span class="workflow-number">04 / REVIEW</span><strong>Return qualified evidence</strong><p>Keep checks, exceptions, and allowed-use limits with the handoff.</p></li>
-          </ol>
-          <p>Python, CSV/JSON records, file hashes, and saved comparison outputs make the checks inspectable. File integrity, computational reproduction, and scientific review have separate recorded outcomes.</p>
-        </section>
-      </div>
-      <section class="section" aria-labelledby="evidence">
-        <div class="section-title"><h2 id="evidence">Evidence from completed checks</h2><span class="section-number">TECHNICAL RESULTS</span></div>
-        <div class="project-body evidence-body">
-          <div>
-            <h3>Rainfall reproduction audit</h3>
-            <p>The Draft 2 rerun decoded 288 retained radar source dates across 18 distinct months. It matched the frozen monthly cases, hidden daily rows, and aggregate metric rows exactly.</p>
-            <div class="table-scroll"><table><caption>Recorded rerun checks from my 13 October report</caption><thead><tr><th scope="col">Output checked</th><th scope="col">Rows matched</th></tr></thead><tbody><tr><th scope="row">Monthly cases</th><td>216</td></tr><tr><th scope="row">Hidden daily rows</th><td>2,376</td></tr><tr><th scope="row">Aggregate metric rows</th><td>24</td></tr></tbody></table></div>
-          </div>
-          <figure><img class="artifact-image" src="assets/screwworm-intake-workflow.svg" width="600" height="420" alt="Three stages of my evidence workflow: preserve source provenance, reproduce exact outputs, and return evidence with limits for review." loading="lazy"><figcaption>Process diagram of the intake and review workflow.</figcaption></figure>
-        </div>
-        <div class="prose">
-          <h3>Table intake and rebuild checks</h3>
-          <p>A separate, completed intake of a teammate’s six-report derivative checked 904 supplied values, independently recomputed 412 arithmetic controls, and matched seven rebuilt outputs byte for byte. These are technical verification counts from the saved intake record, rather than counts of disease cases or a scientific validation result.</p>
-        </div>
+      <section aria-labelledby="role"><h2 id="role">My responsibility across the research team</h2>
+        <p>As Ingestor, I am involved across the research streams. My responsibility is to verify the team’s contributed evidence and methods before integration: trace data back to retained sources, reproduce processing, test calculations, reconcile definitions and versions, and identify what a result can support.</p>
+        <p>I work through source-linked checks, exceptions and review decisions, then return findings and reproducible evidence packages to Brandon, the project Hub. That work connects individual research contributions to the team’s assessment. A duplicated report, mismatched observation day or incorrect geographic join can change the apparent evidence for an explanation.</p>
+        <p>I use Codex-assisted Python and documented review to carry out this work. The records distinguish original source collection, my verification and reproduction, subsequent corrections, human review and the exact version delivered.</p>
       </section>
-      <div class="project-sections">
-        <section aria-labelledby="findings">
-          <h2 id="findings">What I found</h2>
-          <p>The rainfall outputs were reproducible within the retained test package, but the tested radar estimates exceeded the pilot’s gap-error criterion. I kept the comparison flagged and documented its limits for review. Reproducing a table establishes computational agreement within the tested scope; accuracy and suitability for a new analysis require further evidence.</p>
-          <p>Reporting-day alignment, cohort coverage, and the treatment of missing and questioned readings remain material limits. A station-level rainfall check also needs a separate geographic design before it can support broader environmental comparisons.</p>
-        </section>
-        <section aria-labelledby="changes">
-          <h2 id="changes">Next steps</h2>
-          <p>I would confirm the station accumulation intervals, expand matched validation under a documented sampling plan, and test a defined research endpoint before integrating a rainfall reconstruction. The handoff needs to retain estimate flags, contributor credit, unresolved dependencies, and the exact review status.</p>
-        </section>
-        <section aria-labelledby="source">
-          <h2 id="source">Project source and status</h2>
-          <p>This case study summarizes my GEOG 476 Project Draft 2 report, “Evidence compatibility and the Hondo rainfall pilot,” dated 13 October 2026, and the saved technical intake and rebuild records checked on 16 October. The illustration describes the workflow.</p>
-          <p>The capstone is ongoing. Technical check completion and delivery are recorded separately from scientific acceptance. The public page contains a summary of my contribution; team input packages and restricted review records stay in the project workspace.</p>
-        </section>
-        <nav class="actions project-navigation" aria-label="Project navigation"><a class="text-link" href="projects.html?v=capstone-1">All projects</a><a class="text-link" href="project-3.html?v=capstone-1">Remote sensing coursework <span aria-hidden="true">→</span></a></nav>
-      </div>
     </div>
-  </main>
+
+    <section class="section" aria-labelledby="workstreams"><div class="section-title"><h2 id="workstreams">Research I have verified</h2><span class="section-number">ACROSS THE TEAM</span></div>
+      <div class="scope-grid">
+        <article class="scope-card"><p class="eyebrow">01 / Environmental evidence</p><h3>Climate rasters and station observations</h3><p>Reviewed POWER, CHIRPS, GHCNd, SSOD, INSIVUMEH, SMN and an ERA5 sample. I checked source-to-table fidelity, units, quality flags, periods, coordinates, native grids and missingness across successive releases.</p><p class="scope-result">Recalculated 198 GHCNd month entries and 96 weighted POWER–CHIRPS footprint comparisons. Later checks covered 85,536 daily POWER slots and 4,752 period-summary groups.</p><p class="caption">Includes source fidelity, raster arithmetic and metadata reconciliation, with version overlap preserved.</p></article>
+        <article class="scope-card"><p class="eyebrow">02 / Rainfall methods</p><h3>Estimation, validation and uncertainty</h3><p>Developed and reviewed station-based gap-estimation work, reproduced normal-ratio and radar validation workflows, and compared the consequences of gap masks, reporting intervals and error denominators.</p><p class="scope-result">Reproduced 4,750 normal-ratio predictions and 2,668 allocations; verified 742 retained radar source grids and the daily, storm and monthly comparison outputs.</p><p class="caption">Reported observations, questioned readings, estimated zeros and unresolved gaps remain distinct.</p></article>
+        <article class="scope-card"><p class="eyebrow">03 / Detections and chronology</p><h3>Source records, bulletins and statements</h3><p>Verified SENASICA service extracts, a corrected 485-record detection workbook, official bulletin bindings, publication chronologies, corrected count definitions and source coverage.</p><p class="scope-result">Checked 13 bulletin bindings, 147 state-row groups, a 41-row selected chronology and a separate 66-row statement inventory. Reproduced seven corrected statement assessments in a portable replay.</p><p class="caption">Date meanings, animal/trap distinctions, repeated publications and historical/current snapshots remain traceable.</p></article>
+        <article class="scope-card"><p class="eyebrow">04 / Livestock and geography</p><h3>Inventories, trade and spatial joins</h3><p>Reviewed cattle inventories, production, market/network context, reporting periods, source hierarchy, boundary vintages and join coverage. I checked overlaps and conflicts before evidence was combined.</p><p class="scope-result">Verified a 2,489-row census hierarchy, state-workbook controls and geographic coverage checks. A six-report derivative passed 904 value checks, 412 arithmetic controls and seven exact output rebuilds.</p><p class="caption">Stock, flow, nested totals and repeated reporting periods retain their separate meanings.</p></article>
+        <article class="scope-card"><p class="eyebrow">05 / GIS reproducibility</p><h3>Map inputs and execution environment</h3><p>Verified the network-map package from its multipart transport through source and input pins, then inspected ArcGIS, library and license requirements for an exact rebuild.</p><p class="scope-result">Seven parts, 503 archive members, 502 package pins and 244 input pins checked. I documented the environment mismatch and the remaining rebuild dependency.</p><p class="caption">The completed input audit and the pending map rebuild are recorded as separate stages.</p></article>
+        <article class="scope-card"><p class="eyebrow">06 / Research infrastructure</p><h3>Evidence lineage and reliable workflows</h3><p>Maintained a searchable HTML evidence workbench, contributor/version catalogs, use records, review queues and documented handoffs. I also diagnosed a Windows process-liveness defect and developed a separately attributed fix with Codex assistance.</p><p class="scope-result">The fix passed 18 native tests, six exchange integration checks and eight new owner regressions. I verified installation and exact source reconstruction for the multipart context reader.</p><p class="caption">These tools preserve the evidence chain and make research reproducible across work sessions.</p></article>
+      </div>
+      <a class="text-link" href="screwworm-verification.html?v=readable-3">Explore the full work and delivery record <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="section" aria-labelledby="results"><div class="section-title"><h2 id="results">Examples of reproduced results</h2><span class="section-number">EXECUTED CHECKS</span></div>
+      <div class="table-scroll"><table><caption>Selected verification outputs from the saved research record</caption><thead><tr><th scope="col">Work</th><th scope="col">What I reproduced or verified</th><th scope="col">Why it matters</th></tr></thead><tbody>
+        <tr><th scope="row">Environmental summaries</th><td>4,752 summary groups using exact arithmetic; 198 station-month entries; 96 raster-footprint comparisons.</td><td>Tests whether reported environmental context follows from the actual observations, raster support and aggregation method.</td></tr>
+        <tr><th scope="row">Rainfall validation</th><td>Normal-ratio predictions and allocation/exclusion metrics; radar cell extraction, storm comparisons and historical monthly masks.</td><td>Tests the methods and exposes sensitivity to daily timing, missing-value handling and validation design.</td></tr>
+        <tr><th scope="row">Historical radar audit</th><td>288 retained source dates across 18 distinct months; exact agreement for 216 monthly cases, 2,376 hidden daily rows and 24 metric rows.</td><td>Makes the reported validation reproducible and supports checking the interpretation of its errors.</td></tr>
+        <tr><th scope="row">Livestock derivative</th><td>412 independently recomputed arithmetic controls; 11 deliberate defects detected by validation; seven byte-identical rebuilt outputs.</td><td>Checks both numerical agreement and whether the validation catches known bad inputs.</td></tr>
+        <tr><th scope="row">Chronology review</th><td>Seven statement dispositions reproduced, with an identical replay from a separate folder.</td><td>Keeps support, qualifications and unresolved source relationships visible in the chronology.</td></tr>
+      </tbody></table></div>
+      <p class="caption">Counts describe computational checks and output rows, not independent disease observations or a claim that every row was manually inspected. Shared inputs and successive versions are not added together as independent evidence.</p>
+    </section>
+
+    <div class="project-sections">
+      <section aria-labelledby="delivery"><h2 id="delivery">What I returned to the Hub</h2>
+        <p>My returns include environmental source audits and descriptive assessments, source-compatibility and coverage reports, reproduced calculations, exception registers, reviewed rainfall comparisons, corrected statement supplements, evidence-index updates and software verification results.</p>
+        <p>The project lead explicitly accepted my completed v05 environmental review for its documented checks, data handling and descriptive assessment. Other returns preserve their exact review state. The approved rainfall comparison and calculation supplement were delivered for further lead review; the completed chronology reproduction has a separate final-review step.</p>
+        <p><a href="screwworm-verification.html?v=readable-3">The full record</a> covers all 30 tracked work orders, their contribution and result, and separates completed work from the remaining review, data, scope and environment dependencies.</p>
+      </section>
+      <section aria-labelledby="lessons"><h2 id="lessons">What the verification changed</h2>
+        <p>Source review determines how evidence can enter the assessment. My checks preserve missing rainfall instead of manufacturing dry days, separate publication dates from event dates, retain animal/trap and source-measure distinctions, and identify duplicate reports before aggregation. Geographic and product differences travel with the results.</p>
+        <p>In the rainfall work, reproducing the calculations also exposed a meaningful interpretation issue: an error normalized by the whole month can look smaller than the error in the missing portion being estimated. I retained the failed scores and timing assumptions in the comparison so they could be evaluated rather than hidden by a favorable aggregate.</p>
+      </section>
+      <section aria-labelledby="status"><h2 id="status">Current work</h2>
+        <p>The capstone is ongoing. Remaining work includes review of the delivered rainfall comparison, final review of the chronology return, resolution of the exact ArcGIS rebuild environment, and bounded decisions on unresolved Guatemala rainfall and broader alignment.</p>
+        <p>The intended final intelligence estimate, competing-hypothesis assessment and client briefing remain team deliverables. This page documents my completed research verification and reproduction, the packages returned, and the work still in progress as of 16 October 2026.</p>
+      </section>
+      <section aria-labelledby="source"><h2 id="source">Sources and method record</h2>
+        <p>Project purpose comes from the original ten-page brief delivered by the Hub. Work claims were traced through project work orders, received research releases, verification and reproduction results, outbound payloads and delivery records. The audit reconciled received and sent versions with the project lead’s current package archive.</p>
+        <p>Original agency data and teammate contributions retain their credit. My contribution is the cross-workstream verification, reproduction, compatibility assessment and documented returns described here. Private review histories, contact details and raw team packages remain outside this public portfolio.</p>
+      </section>
+      <nav class="actions project-navigation" aria-label="Project navigation"><a class="button" href="screwworm-verification.html?v=readable-3">Full verification record <span aria-hidden="true">↗</span></a><a class="text-link" href="projects.html?v=readable-3">All projects</a></nav>
+    </div>
+  </div></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <p><span class="footer-name">Ethan DeMelo</span><br>GIS, field mapping, and remote sensing.</p>
