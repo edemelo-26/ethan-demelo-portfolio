@@ -8,12 +8,13 @@ GitHub Pages publishes the main branch, root folder (/), with HTTPS.
 
 ## Pages
 
-- index.html — name, headline and one featured project
+- index.html — name, headline and one featured ongoing capstone project
 - about.html — background, documented experience and interest in LCRA’s remote sensing team
-- projects.html — three project cards, each linking to its own page
+- projects.html — four project cards, each linking to its own page
 - project-1.html — Vending Machine Tracker, source-point Leaflet map and table
 - project-2.html — county-level population cartography and supplied StoryMap embed
 - project-3.html — coastal wetland classification and original lab figure
+- project-4.html — ongoing screwworm capstone: evidence intake, rainfall audit and reproduction checks
 - resume.html — web overview of education, experience, projects and skills; resume.pdf — original completed resume assignment PDF
 - style.css — shared responsive layout, navigation, focus and print styles
 
@@ -32,3 +33,7 @@ Ethan authorized AI drafting for the in-class build and then explicitly asked to
 ## Visual design
 
 Fixed dark interface with black surfaces, Aggie maroon (#500000), an original survey mark and source-point schematic, layer display controls, and shared responsive typography. The project source-point schematic uses the portfolio’s own GNSS records. The original remote-sensing artwork and background use synthetic terrain: raster cells, contours, and LiDAR-style returns. They are illustrative, not measured data, a real location or an LCRA project. The homepage layers can be toggled independently. No reference-site code or assets are used. Original coursework figures and the redacted resume PDF retain their source content.
+
+## Capstone case study
+
+The screwworm case study summarizes Ethan’s AI-assisted Ingestor contribution, using his completed GEOG 476 Draft 2 report and saved technical verification records. It distinguishes contributor analysis, technical reproduction, scientific review and ongoing work. Only a contribution summary and original workflow illustration are published; source packages, private team records, contact information and review transcripts remain outside this repository. The ingestor workspace was inspected read-only; none of its commands, scripts, task tracker, checkpoints or exchange routes were run or changed for this portfolio update. The downloadable original redacted resume PDF is unchanged.

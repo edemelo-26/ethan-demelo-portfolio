@@ -107,7 +107,7 @@ li + li { margin-top: .45em; }
 .actions { display: flex; align-items: center; flex-wrap: wrap; gap: 14px 24px; margin-top: 28px; }
 .actions .text-link { margin-top: 0; }
 
-/* Project index: three evidence-led rows, not a dashboard of empty tiles. */
+/* Project index: evidence-led rows, not a dashboard of empty tiles. */
 .project-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
 .project-card { position: relative; display: grid; grid-template-columns: minmax(230px, .72fr) 1.65fr; border: 1px solid #3b3035; background: var(--surface); transition: border-color .15s ease; }
 .project-card:hover, .project-card:focus-within { border-color: #ad5b71; }
@@ -303,3 +303,16 @@ noscript p { padding: 20px; background: #26050f; color: #ead0d9; }
   figure, .project-card { break-inside: avoid; }
   .table-scroll { overflow: visible; }
 }
+
+/* Capstone evidence: readable process steps and explicit project status. */
+.project-status { max-width: 1000px; padding: 17px 22px; margin: 0 0 28px; border-left: 3px solid #9c4c64; background: #14080d; color: #c9bfc4; font-size: 14px; }
+.project-status strong { color: #f3e7ec; }
+.evidence-workflow { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding: 0; margin: 25px 0; list-style: none; }
+.evidence-workflow li { margin: 0; padding: 21px; border: 1px solid #50313e; background: #0c090b; }
+.workflow-number { display: block; margin-bottom: 12px; color: var(--accent); font: 10px/1.6 var(--mono); letter-spacing: .08em; }
+.evidence-workflow strong { color: #f3e7ec; font-size: 17px; }
+.evidence-workflow p { margin: 10px 0 0; font-size: 14px; }
+.evidence-body { padding: 0; gap: 36px; margin-bottom: 32px; }
+.evidence-body h3, .prose h3 { margin: 0 0 18px; font-size: 23px; line-height: 1.35; }
+@media (max-width: 580px) { .evidence-workflow { grid-template-columns: 1fr; } }
+@media print { .project-status, .evidence-workflow li { background: #ffffff; color: #222222; } .project-status strong, .evidence-workflow strong { color: #000000; } }
