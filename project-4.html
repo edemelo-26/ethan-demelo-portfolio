@@ -1,102 +1,98 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ethan DeMelo’s research verification and reproducibility across environmental, detection, livestock and geospatial work for a USDA client capstone.">
-  <meta name="color-scheme" content="dark">
-  <title>Screwworm Research Verification | Ethan DeMelo</title>
-
-  <link rel="stylesheet" href="style.css?v=draft-20261021">
-  <meta name="theme-color" content="#000000">
-  <link rel="icon" type="image/svg+xml" href="assets/ed-mark.svg">
-  <script src="site.js?v=draft-20261021" defer></script>
+<meta charset="utf-8"/><script>try { const t = localStorage.getItem('portfolio-theme'); if (t === 'light') document.documentElement.dataset.theme = 'light'; } catch (_) {}</script>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Ethan DeMelo’s research verification and reproducibility across environmental, detection, livestock and geospatial work for a USDA client capstone." name="description"/>
+<meta content="dark light" name="color-scheme"/>
+<title>Screwworm Research Verification | Ethan DeMelo</title>
+<link href="style.css?v=expanded-20261022" rel="stylesheet"/>
+<meta content="#000000" name="theme-color"/>
+<link href="assets/ed-mark.svg" rel="icon" type="image/svg+xml"/>
+<script defer="" src="site.js?v=expanded-20261022"></script>
 </head>
-<body id="top">
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a class="brand" href="index.html?v=draft-20261021"><img class="brand-mark" src="assets/ed-mark.svg" alt="" aria-hidden="true" width="36" height="36">Ethan DeMelo</a>
-      <nav aria-label="Main navigation">
-        <a href="index.html?v=draft-20261021">Home</a>
-        <a href="about.html?v=draft-20261021">About</a>
-        <a href="projects.html?v=draft-20261021" aria-current="location">Projects</a>
-        <a href="resume.html?v=draft-20261021">Resume</a>
-      </nav>
-    </div>
-  </header>
-  <main id="main"><div class="wrap">
-    <section class="page-hero" aria-labelledby="page-title">
-      <p class="eyebrow">GEOG 476 client project / Fall 2026 / Ongoing</p>
-      <h1 id="page-title">New World Screwworm:<br>Research Verification &amp; Reproducibility</h1>
-      <p class="page-intro">I verify research across the team’s environmental, detection, livestock and geospatial workstreams, reproduce results, and return documented findings for the shared intelligence assessment.</p>
-    </section>
-    <div class="project-context"><dl><div><dt>Client identified in the brief</dt><dd>USDA</dd></div><div><dt>Imagery route</dt><dd>NGA Tearline program</dd></div><div><dt>My role</dt><dd>Ingestor · Research verification and integration</dd></div><div><dt>Team’s intended product</dt><dd>Unclassified GEOINT intelligence estimate</dd></div></dl></div>
-    <nav class="page-contents" aria-label="On this project page"><a href="#purpose">Purpose</a><a href="#role">My responsibility</a><a href="#workstreams">Research coverage</a><a href="#results">Reproduced results</a><a href="#delivery">Hub returns</a><a href="#status">Current work</a></nav>
-    <div class="project-sections">
-      <section aria-labelledby="purpose"><h2 id="purpose">Who the work is for, and why</h2>
-        <p>The course brief identifies USDA as the client and NGA’s Tearline program as the route for commercial imagery. Our team is investigating how geographic conditions, livestock networks, environmental conditions and surveillance could support competing explanations of screwworm transmission pathways from Guatemala through Mexico toward South Texas.</p>
-        <p>The intended audience is a decision-maker who needs a defensible intelligence estimate: an executive assessment, chronology, geospatial analysis, competing hypotheses, an evidence matrix, justified confidence and explicit information gaps. The brief also calls for methods that later student and graduate research teams can carry forward.</p>
-        <p class="caption">Project purpose and audience: original GEOG 476 “New World Screwworm Transmission Pathways” brief, supplied through the Hub; pages 1–8. The client project and final assessment remain in progress.</p>
-      </section>
-      <section aria-labelledby="role"><h2 id="role">My responsibility across the research team</h2>
-        <p>As Ingestor, I am involved across the research streams. My responsibility is to verify the team’s contributed evidence and methods before integration: trace data back to retained sources, reproduce processing, test calculations, reconcile definitions and versions, and identify what a result can support.</p>
-        <p>I work through source-linked checks, exceptions and review decisions, then return findings and reproducible evidence packages to Brandon, the project lead who integrates the team’s research (the Hub). That work connects individual research contributions to the team’s assessment. A duplicated report, mismatched observation day or incorrect geographic join can change the apparent evidence for an explanation.</p>
-        <p>I use Codex-assisted Python and documented review to carry out this work. The records distinguish original source collection, my verification and reproduction, subsequent corrections, human review and the exact version delivered.</p>
-      </section>
-    </div>
+<body data-project-theme="biosecurity" id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="brand" href="index.html?v=expanded-20261022"><img alt="" aria-hidden="true" class="brand-mark" height="36" src="assets/ed-mark.svg" width="36"/>Ethan DeMelo</a>
+<nav aria-label="Main navigation">
+<a href="index.html?v=expanded-20261022">Home</a>
+<a href="about.html?v=expanded-20261022">About</a>
+<a aria-current="location" href="projects.html?v=expanded-20261022">Projects</a>
+<a href="resume.html?v=expanded-20261022">Resume</a>
+</nav>
+<label class="theme-switch"><span>Dark</span><input aria-label="Light theme" id="theme-toggle" role="switch" type="checkbox"/><span>Light</span></label></div>
+</header>
+<main id="main"><div class="wrap">
+<section aria-labelledby="page-title" class="page-hero">
+<p class="eyebrow">GEOG 476 client project / Fall 2026 / Ongoing</p>
+<h1 id="page-title">New World Screwworm:<br/>Research Verification &amp; Reproducibility</h1>
+<p class="page-intro">I verify research across the team’s environmental, detection, livestock and geospatial workstreams, reproduce results, and return documented findings for the shared intelligence assessment.</p>
+</section><div aria-label="Iterative Hub and Ingestor verification loop" class="verification-loop" role="group"><p class="loop-heading">Research → review → reproduce → return → review again</p><div class="loop-roles"><div class="loop-person"><p class="eyebrow">Hub / Team lead</p><h3>Brandon Santor</h3><p>Frames work, reviews team submissions, integrates findings and decides final acceptance.</p></div><div aria-hidden="true" class="loop-arrows">⇄<span>Iterative<br/>exchange</span></div><div class="loop-person"><p class="eyebrow">Ingestor / My role</p><h3>Ethan DeMelo</h3><p>Traces sources, reproduces calculations, reconciles versions and documents exceptions.</p></div></div><div class="loop-returns"><p><strong>To me →</strong> Versioned research releases, work orders, retained inputs and review criteria.</p><p><strong>Back to the Hub →</strong> Reproduction results, source-linked findings, corrections, confidence limits and unresolved gaps.</p></div><p class="caption">This is a repeated research exchange. Delivery, completed verification and final Hub acceptance are separate states. Original diagram explaining our documented roles.</p></div><div aria-label="Input to process to output" class="workflow"><article><span>Input</span><h3>Team research releases</h3><p>Pod/Hub-reviewed sources, manifests, calculations and reproducibility criteria.</p></article><article><span>Process</span><h3>My verification work</h3><p>Reproduce results, test assumptions, preserve discrepancies and reconcile versions.</p></article><article><span>Output</span><h3>Hub review and reuse</h3><p>Return source-linked findings; Brandon reviews acceptance before shared reuse.</p></article></div>
 
-    <section class="section" aria-labelledby="workstreams"><div class="section-title"><h2 id="workstreams">Research I have verified</h2><span class="section-number">ACROSS THE TEAM</span></div>
-      <div class="scope-grid">
-        <article class="scope-card"><p class="eyebrow">01 / Environmental evidence</p><h3>Climate rasters and station observations</h3><p>Reviewed POWER, CHIRPS, GHCNd, SSOD, INSIVUMEH, SMN and an ERA5 sample. I checked source-to-table fidelity, units, quality flags, periods, coordinates, native grids and missingness across successive releases.</p><p class="scope-result">Recalculated 198 GHCNd month entries and 96 weighted POWER–CHIRPS footprint comparisons. Later checks covered 85,536 daily POWER slots and 4,752 period-summary groups.</p><p class="caption">Includes source fidelity, raster arithmetic and metadata reconciliation, with version overlap preserved.</p></article>
-        <article class="scope-card"><p class="eyebrow">02 / Rainfall methods</p><h3>Estimation, validation and uncertainty</h3><p>Developed and reviewed station-based gap-estimation work, reproduced normal-ratio and radar validation workflows, and compared the consequences of gap masks, reporting intervals and error denominators.</p><p class="scope-result">Reproduced 4,750 normal-ratio predictions and 2,668 allocations; verified 742 retained radar source grids and the daily, storm and monthly comparison outputs.</p><p class="caption">Reported observations, questioned readings, estimated zeros and unresolved gaps remain distinct.</p></article>
-        <article class="scope-card"><p class="eyebrow">03 / Detections and chronology</p><h3>Source records, bulletins and statements</h3><p>Verified SENASICA service extracts, a corrected 485-record detection workbook, official bulletin bindings, publication chronologies, corrected count definitions and source coverage.</p><p class="scope-result">Checked 13 bulletin bindings, 147 state-row groups, a 41-row selected chronology and a separate 66-row statement inventory. Reproduced seven corrected statement assessments in a portable replay.</p><p class="caption">Date meanings, animal/trap distinctions, repeated publications and historical/current snapshots remain traceable.</p></article>
-        <article class="scope-card"><p class="eyebrow">04 / Livestock and geography</p><h3>Inventories, trade and spatial joins</h3><p>Reviewed cattle inventories, production, market/network context, reporting periods, source hierarchy, boundary vintages and join coverage. I checked overlaps and conflicts before evidence was combined.</p><p class="scope-result">Verified a 2,489-row census hierarchy, state-workbook controls and geographic coverage checks. A six-report derivative passed 904 value checks, 412 arithmetic controls and seven exact output rebuilds.</p><p class="caption">Stock, flow, nested totals and repeated reporting periods retain their separate meanings.</p></article>
-        <article class="scope-card"><p class="eyebrow">05 / GIS reproducibility</p><h3>Map inputs and execution environment</h3><p>Verified the network-map package from its multipart transport through source and input pins, then inspected ArcGIS, library and license requirements for an exact rebuild.</p><p class="scope-result">Seven parts, 503 archive members, 502 package pins and 244 input pins checked. I documented the environment mismatch and the remaining rebuild dependency.</p><p class="caption">The completed input audit and the pending map rebuild are recorded as separate stages.</p></article>
-        <article class="scope-card"><p class="eyebrow">06 / Research infrastructure</p><h3>Evidence lineage and reliable workflows</h3><p>Maintained a searchable HTML evidence workbench, contributor/version catalogs, use records, review queues and documented handoffs. I also diagnosed a Windows process-liveness defect and developed a separately attributed fix with Codex assistance.</p><p class="scope-result">The fix passed 18 native tests, six exchange integration checks and eight new owner regressions. I verified installation and exact source reconstruction for the multipart context reader.</p><p class="caption">These tools preserve the evidence chain and make research reproducible across work sessions.</p></article>
-      </div>
-      <a class="text-link" href="screwworm-verification.html?v=draft-20261021">Explore the full work and delivery record <span aria-hidden="true">↗</span></a>
-    </section>
 
-    <section class="section" aria-labelledby="results"><div class="section-title"><h2 id="results">Examples of reproduced results</h2><span class="section-number">EXECUTED CHECKS</span></div>
-      <div class="table-scroll" tabindex="0" role="region" aria-label="Reproduced result examples; scroll horizontally on narrow screens"><table><caption>Selected verification outputs from the saved research record</caption><thead><tr><th scope="col">Work</th><th scope="col">What I reproduced or verified</th><th scope="col">Why it matters</th></tr></thead><tbody>
-        <tr><th scope="row">Environmental summaries</th><td>4,752 summary groups using exact arithmetic; 198 station-month entries; 96 raster-footprint comparisons.</td><td>Tests whether reported environmental context follows from the actual observations, raster support and aggregation method.</td></tr>
-        <tr><th scope="row">Rainfall validation</th><td>Normal-ratio predictions and allocation/exclusion metrics; radar cell extraction, storm comparisons and historical monthly masks.</td><td>Tests the methods and exposes sensitivity to daily timing, missing-value handling and validation design.</td></tr>
-        <tr><th scope="row">Historical radar audit</th><td>288 retained source dates across 18 distinct months; exact agreement for 216 monthly cases, 2,376 hidden daily rows and 24 metric rows.</td><td>Makes the reported validation reproducible and supports checking the interpretation of its errors.</td></tr>
-        <tr><th scope="row">Livestock derivative</th><td>412 independently recomputed arithmetic controls; 11 deliberate defects detected by validation; seven byte-identical rebuilt outputs.</td><td>Checks both numerical agreement and whether the validation catches known bad inputs.</td></tr>
-        <tr><th scope="row">Chronology review</th><td>Seven statement dispositions reproduced, with an identical replay from a separate folder.</td><td>Keeps support, qualifications and unresolved source relationships visible in the chronology.</td></tr>
-      </tbody></table></div>
-      <p class="caption">Counts describe computational checks and output rows, not independent disease observations or a claim that every row was manually inspected. Shared inputs and successive versions are not added together as independent evidence.</p>
-    </section>
 
-    <div class="project-sections">
-      <section aria-labelledby="verification-meaning"><h2 id="verification-meaning">What verification involves</h2><p>I check evidence at several levels: a file check confirms exact retained bytes; a source-fidelity check compares a table with its recorded source; a calculation reproduction recomputes the method and compares the result. Together, these checks establish what was received, how it was processed and whether the reported output follows from that processing.</p><p>A checked “slot” is a position in a data series and can contain a value or an explicit missing entry. A source “pin” is a recorded file identity used to bind a result to its input version. These counts describe checks, not independent animals, detections or evidence that a transmission hypothesis is true.</p></section>
-<section aria-labelledby="delivery"><h2 id="delivery">What I returned to the Hub</h2>
-        <p>My returns include environmental source audits and descriptive assessments, source-compatibility and coverage reports, reproduced calculations, exception registers, reviewed rainfall comparisons, corrected statement supplements, evidence-index updates and software verification results.</p>
-        <p>The project lead explicitly accepted my completed v05 environmental review for its documented checks, data handling and descriptive assessment. Other returns preserve their exact review state. The approved rainfall comparison and calculation supplement were delivered for further lead review; the completed chronology reproduction has a separate final-review step.</p>
-        <p><a href="screwworm-verification.html?v=draft-20261021">The full record</a> covers all 30 tracked work orders, their contribution and result, and separates completed work from the remaining review, data, scope and environment dependencies.</p>
-      </section>
-      <section aria-labelledby="lessons"><h2 id="lessons">What the verification changed</h2>
-        <p>Source review determines how evidence can enter the assessment. My checks preserve missing rainfall instead of manufacturing dry days, separate publication dates from event dates, retain animal/trap and source-measure distinctions, and identify duplicate reports before aggregation. Geographic and product differences travel with the results.</p>
-        <p>In the rainfall work, reproducing the calculations also exposed a meaningful interpretation issue: an error normalized by the whole month can look smaller than the error in the missing portion being estimated. I retained the failed scores and timing assumptions in the comparison so they could be evaluated rather than hidden by a favorable aggregate.</p>
-      </section>
-      <section aria-labelledby="status"><h2 id="status">Current work</h2>
-        <p>The capstone is ongoing. Remaining work includes review of the delivered rainfall comparison, final review of the chronology return, resolution of the exact ArcGIS rebuild environment, and bounded decisions on unresolved Guatemala rainfall and broader alignment.</p>
-        <p>The intended final intelligence estimate, competing-hypothesis assessment and client briefing remain team deliverables. This page documents my completed research verification and reproduction, the packages returned, and the work still in progress as of 16 October 2026.</p>
-      </section>
-      <section aria-labelledby="source"><h2 id="source">Sources and method record</h2>
-        <p>Project purpose comes from the original ten-page brief delivered by the Hub. Work claims were traced through project work orders, received research releases, verification and reproduction results, outbound payloads and delivery records. The audit reconciled received and sent versions with the project lead’s current package archive.</p>
-        <p>Original agency data and teammate contributions retain their credit. My contribution is the cross-workstream verification, reproduction, compatibility assessment and documented returns described here. Private review histories, contact details and raw team packages remain outside this public portfolio.</p>
-      </section>
-      <nav class="actions project-navigation" aria-label="Project navigation"><a class="button" href="screwworm-verification.html?v=draft-20261021">Full verification record <span aria-hidden="true">↗</span></a><a class="text-link" href="projects.html?v=draft-20261021">All projects</a></nav>
-    </div>
-  </div></main>
-  <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <p><span class="footer-name">Ethan DeMelo</span><br>GIS, field mapping, and remote sensing.</p>
-      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
-    </div>
-  </footer>
 
+
+
+<div class="case-layout"><div class="case-main"><div class="project-context"><dl><div><dt>Client identified in the brief</dt><dd>USDA</dd></div><div><dt>Imagery route</dt><dd>NGA Tearline program</dd></div><div><dt>My role</dt><dd>Ingestor · Research verification and integration</dd></div><div><dt>Team’s intended product</dt><dd>Unclassified GEOINT intelligence estimate</dd></div></dl></div><p class="source-credit">Team lead and Hub: <a href="https://emp1241.github.io/project-nwsw.html" rel="noopener noreferrer" target="_blank">Brandon Santor’s research/GIS case study ↗</a>. My verification record below remains dated October 16, 2026; later team engineering claims are not presented as my independent rebuild.</p><nav aria-label="On this project page" class="page-contents"><a href="#purpose">Purpose</a><a href="#role">My responsibility</a><a href="#workstreams">Research coverage</a><a href="#results">Reproduced results</a><a href="#delivery">Hub returns</a><a href="#status">Current work</a></nav><div class="project-sections">
+<details class="case-detail" id="purpose"><summary>Who the work is for, and why</summary><div>
+<p>The course brief identifies USDA as the client and NGA’s Tearline program as the route for commercial imagery. Our team is investigating how geographic conditions, livestock networks, environmental conditions and surveillance could support competing explanations of screwworm transmission pathways from Guatemala through Mexico toward South Texas.</p>
+<p>The intended audience is a decision-maker who needs a defensible intelligence estimate: an executive assessment, chronology, geospatial analysis, competing hypotheses, an evidence matrix, justified confidence and explicit information gaps. The brief also calls for methods that later student and graduate research teams can carry forward.</p>
+<p class="caption">Project purpose and audience: original GEOG 476 “New World Screwworm Transmission Pathways” brief, supplied through the Hub; pages 1–8. The client project and final assessment remain in progress.</p>
+</div></details>
+<details class="case-detail" id="role"><summary>My responsibility across the research team</summary><div>
+<p>As Ingestor, I am involved across the research streams. My responsibility is to verify the team’s contributed evidence and methods before integration: trace data back to retained sources, reproduce processing, test calculations, reconcile definitions and versions, and identify what a result can support.</p>
+<p>I work through source-linked checks, exceptions and review decisions, then return findings and reproducible evidence packages to Brandon, the project lead who integrates the team’s research (the Hub). That work connects individual research contributions to the team’s assessment. A duplicated report, mismatched observation day or incorrect geographic join can change the apparent evidence for an explanation.</p>
+<p>I use Codex-assisted Python and documented review to carry out this work. The records distinguish original source collection, my verification and reproduction, subsequent corrections, human review and the exact version delivered.</p>
+</div></details>
+</div><section aria-labelledby="workstreams" class="section"><div class="section-title"><h2 id="workstreams">Research I have verified</h2><span class="section-number">ACROSS THE TEAM</span></div>
+<div class="scope-grid">
+<details class="case-detail"><summary>Climate rasters and station observations</summary><div><p class="eyebrow">01 / Environmental evidence</p><p>Reviewed POWER, CHIRPS, GHCNd, SSOD, INSIVUMEH, SMN and an ERA5 sample. I checked source-to-table fidelity, units, quality flags, periods, coordinates, native grids and missingness across successive releases.</p><p class="scope-result">Recalculated 198 GHCNd month entries and 96 weighted POWER–CHIRPS footprint comparisons. Later checks covered 85,536 daily POWER slots and 4,752 period-summary groups.</p><p class="caption">Includes source fidelity, raster arithmetic and metadata reconciliation, with version overlap preserved.</p></div></details>
+<details class="case-detail"><summary>Estimation, validation and uncertainty</summary><div><p class="eyebrow">02 / Rainfall methods</p><p>Developed and reviewed station-based gap-estimation work, reproduced normal-ratio and radar validation workflows, and compared the consequences of gap masks, reporting intervals and error denominators.</p><p class="scope-result">Reproduced 4,750 normal-ratio predictions and 2,668 allocations; verified 742 retained radar source grids and the daily, storm and monthly comparison outputs.</p><p class="caption">Reported observations, questioned readings, estimated zeros and unresolved gaps remain distinct.</p></div></details>
+<details class="case-detail"><summary>Source records, bulletins and statements</summary><div><p class="eyebrow">03 / Detections and chronology</p><p>Verified SENASICA service extracts, a corrected 485-record detection workbook, official bulletin bindings, publication chronologies, corrected count definitions and source coverage.</p><p class="scope-result">Checked 13 bulletin bindings, 147 state-row groups, a 41-row selected chronology and a separate 66-row statement inventory. Reproduced seven corrected statement assessments in a portable replay.</p><p class="caption">Date meanings, animal/trap distinctions, repeated publications and historical/current snapshots remain traceable.</p></div></details>
+<details class="case-detail"><summary>Inventories, trade and spatial joins</summary><div><p class="eyebrow">04 / Livestock and geography</p><p>Reviewed cattle inventories, production, market/network context, reporting periods, source hierarchy, boundary vintages and join coverage. I checked overlaps and conflicts before evidence was combined.</p><p class="scope-result">Verified a 2,489-row census hierarchy, state-workbook controls and geographic coverage checks. A six-report derivative passed 904 value checks, 412 arithmetic controls and seven exact output rebuilds.</p><p class="caption">Stock, flow, nested totals and repeated reporting periods retain their separate meanings.</p></div></details>
+<details class="case-detail"><summary>Map inputs and execution environment</summary><div><p class="eyebrow">05 / GIS reproducibility</p><p>Verified the network-map package from its multipart transport through source and input pins, then inspected ArcGIS, library and license requirements for an exact rebuild.</p><p class="scope-result">Seven parts, 503 archive members, 502 package pins and 244 input pins checked. I documented the environment mismatch and the remaining rebuild dependency.</p><p class="caption">The completed input audit and the pending map rebuild are recorded as separate stages.</p></div></details>
+<details class="case-detail"><summary>Evidence lineage and reliable workflows</summary><div><p class="eyebrow">06 / Research infrastructure</p><p>Maintained a searchable HTML evidence workbench, contributor/version catalogs, use records, review queues and documented handoffs. I also diagnosed a Windows process-liveness defect and developed a separately attributed fix with Codex assistance.</p><p class="scope-result">The fix passed 18 native tests, six exchange integration checks and eight new owner regressions. I verified installation and exact source reconstruction for the multipart context reader.</p><p class="caption">These tools preserve the evidence chain and make research reproducible across work sessions.</p></div></details>
+</div>
+<a class="text-link" href="screwworm-verification.html?v=expanded-20261022">Explore the full work and delivery record <span aria-hidden="true">↗</span></a>
+</section><section class="section" id="results"><details class="case-detail"><summary>Inspect reproduced-result examples and their limits</summary><div>
+<div aria-label="Reproduced result examples; scroll horizontally on narrow screens" class="table-scroll" role="region" tabindex="0"><table><caption>Selected verification outputs from the saved research record</caption><thead><tr><th scope="col">Work</th><th scope="col">What I reproduced or verified</th><th scope="col">Why it matters</th></tr></thead><tbody>
+<tr><th scope="row">Environmental summaries</th><td>4,752 summary groups using exact arithmetic; 198 station-month entries; 96 raster-footprint comparisons.</td><td>Tests whether reported environmental context follows from the actual observations, raster support and aggregation method.</td></tr>
+<tr><th scope="row">Rainfall validation</th><td>Normal-ratio predictions and allocation/exclusion metrics; radar cell extraction, storm comparisons and historical monthly masks.</td><td>Tests the methods and exposes sensitivity to daily timing, missing-value handling and validation design.</td></tr>
+<tr><th scope="row">Historical radar audit</th><td>288 retained source dates across 18 distinct months; exact agreement for 216 monthly cases, 2,376 hidden daily rows and 24 metric rows.</td><td>Makes the reported validation reproducible and supports checking the interpretation of its errors.</td></tr>
+<tr><th scope="row">Livestock derivative</th><td>412 independently recomputed arithmetic controls; 11 deliberate defects detected by validation; seven byte-identical rebuilt outputs.</td><td>Checks both numerical agreement and whether the validation catches known bad inputs.</td></tr>
+<tr><th scope="row">Chronology review</th><td>Seven statement dispositions reproduced, with an identical replay from a separate folder.</td><td>Keeps support, qualifications and unresolved source relationships visible in the chronology.</td></tr>
+</tbody></table></div>
+<p class="caption">Counts describe computational checks and output rows, not independent disease observations or a claim that every row was manually inspected. Shared inputs and successive versions are not added together as independent evidence.</p>
+</div></details></section><div class="project-sections">
+<details class="case-detail" id="verification-meaning"><summary>What verification involves</summary><div><p>I check evidence at several levels: a file check confirms exact retained bytes; a source-fidelity check compares a table with its recorded source; a calculation reproduction recomputes the method and compares the result. Together, these checks establish what was received, how it was processed and whether the reported output follows from that processing.</p><p>A checked “slot” is a position in a data series and can contain a value or an explicit missing entry. A source “pin” is a recorded file identity used to bind a result to its input version. These counts describe checks, not independent animals, detections or evidence that a transmission hypothesis is true.</p></div></details>
+<details class="case-detail" id="delivery"><summary>What I returned to the Hub</summary><div>
+<p>My returns include environmental source audits and descriptive assessments, source-compatibility and coverage reports, reproduced calculations, exception registers, reviewed rainfall comparisons, corrected statement supplements, evidence-index updates and software verification results.</p>
+<p>The project lead explicitly accepted my completed v05 environmental review for its documented checks, data handling and descriptive assessment. Other returns preserve their exact review state. The approved rainfall comparison and calculation supplement were delivered for further lead review; the completed chronology reproduction has a separate final-review step.</p>
+<p><a href="screwworm-verification.html?v=expanded-20261022">The full record</a> covers all 30 tracked work orders, their contribution and result, and separates completed work from the remaining review, data, scope and environment dependencies.</p>
+</div></details>
+<details class="case-detail" id="lessons"><summary>What the verification changed</summary><div>
+<p>Source review determines how evidence can enter the assessment. My checks preserve missing rainfall instead of manufacturing dry days, separate publication dates from event dates, retain animal/trap and source-measure distinctions, and identify duplicate reports before aggregation. Geographic and product differences travel with the results.</p>
+<p>In the rainfall work, reproducing the calculations also exposed a meaningful interpretation issue: an error normalized by the whole month can look smaller than the error in the missing portion being estimated. I retained the failed scores and timing assumptions in the comparison so they could be evaluated rather than hidden by a favorable aggregate.</p>
+</div></details>
+<details class="case-detail" id="status"><summary>Current work</summary><div>
+<p>The capstone is ongoing. Remaining work includes review of the delivered rainfall comparison, final review of the chronology return, resolution of the exact ArcGIS rebuild environment, and bounded decisions on unresolved Guatemala rainfall and broader alignment.</p>
+<p>The intended final intelligence estimate, competing-hypothesis assessment and client briefing remain team deliverables. This page documents my completed research verification and reproduction, the packages returned, and the work still in progress as of 16 October 2026.</p>
+</div></details>
+<details class="case-detail" id="source"><summary>Sources and method record</summary><div>
+<p>Project purpose comes from the original ten-page brief delivered by the Hub. Work claims were traced through project work orders, received research releases, verification and reproduction results, outbound payloads and delivery records. The audit reconciled received and sent versions with the project lead’s current package archive.</p>
+<p>Original agency data and teammate contributions retain their credit. My contribution is the cross-workstream verification, reproduction, compatibility assessment and documented returns described here. Private review histories, contact details and raw team packages remain outside this public portfolio.</p>
+</div></details>
+<nav aria-label="Project navigation" class="actions project-navigation"><a class="button" href="screwworm-verification.html?v=expanded-20261022">Full verification record <span aria-hidden="true">↗</span></a><a class="text-link" href="projects.html?v=expanded-20261022">All projects</a></nav>
+</div></div><aside aria-label="Project facts" class="case-meta"><h2>Project facts</h2><dl><div><dt>My role</dt><dd>Ingestor · research verification and reproduction</dd></div><div><dt>Team lead / Hub</dt><dd>Brandon Santor</dd></div><div><dt>Client brief</dt><dd>USDA · NGA Tearline imagery route</dd></div><div><dt>Evidence date</dt><dd>October 16, 2026 · ongoing team assessment</dd></div></dl></aside></div></div></main>
+<footer class="site-footer">
+<div class="wrap footer-inner">
+<p><span class="footer-name">Ethan DeMelo</span><br/>GIS, field mapping, and remote sensing.</p>
+<a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+</div>
+</footer>
 </body>
 </html>
