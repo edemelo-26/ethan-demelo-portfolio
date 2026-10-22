@@ -7,21 +7,21 @@
   <meta name="color-scheme" content="dark">
   <title>Screwworm Research Verification | Ethan DeMelo</title>
 
-  <link rel="stylesheet" href="style.css?v=readable-3">
+  <link rel="stylesheet" href="style.css?v=draft-20261021">
   <meta name="theme-color" content="#000000">
   <link rel="icon" type="image/svg+xml" href="assets/ed-mark.svg">
-  <script src="site.js?v=readable-3" defer></script>
+  <script src="site.js?v=draft-20261021" defer></script>
 </head>
 <body id="top">
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="index.html?v=readable-3"><img class="brand-mark" src="assets/ed-mark.svg" alt="" aria-hidden="true" width="36" height="36">Ethan DeMelo</a>
+      <a class="brand" href="index.html?v=draft-20261021"><img class="brand-mark" src="assets/ed-mark.svg" alt="" aria-hidden="true" width="36" height="36">Ethan DeMelo</a>
       <nav aria-label="Main navigation">
-        <a href="index.html?v=readable-3">Home</a>
-        <a href="about.html?v=readable-3">About</a>
-        <a href="projects.html?v=readable-3" aria-current="location">Projects</a>
-        <a href="resume.html?v=readable-3">Resume</a>
+        <a href="index.html?v=draft-20261021">Home</a>
+        <a href="about.html?v=draft-20261021">About</a>
+        <a href="projects.html?v=draft-20261021" aria-current="location">Projects</a>
+        <a href="resume.html?v=draft-20261021">Resume</a>
       </nav>
     </div>
   </header>
@@ -41,7 +41,7 @@
       </section>
       <section aria-labelledby="role"><h2 id="role">My responsibility across the research team</h2>
         <p>As Ingestor, I am involved across the research streams. My responsibility is to verify the team’s contributed evidence and methods before integration: trace data back to retained sources, reproduce processing, test calculations, reconcile definitions and versions, and identify what a result can support.</p>
-        <p>I work through source-linked checks, exceptions and review decisions, then return findings and reproducible evidence packages to Brandon, the project Hub. That work connects individual research contributions to the team’s assessment. A duplicated report, mismatched observation day or incorrect geographic join can change the apparent evidence for an explanation.</p>
+        <p>I work through source-linked checks, exceptions and review decisions, then return findings and reproducible evidence packages to Brandon, the project lead who integrates the team’s research (the Hub). That work connects individual research contributions to the team’s assessment. A duplicated report, mismatched observation day or incorrect geographic join can change the apparent evidence for an explanation.</p>
         <p>I use Codex-assisted Python and documented review to carry out this work. The records distinguish original source collection, my verification and reproduction, subsequent corrections, human review and the exact version delivered.</p>
       </section>
     </div>
@@ -55,11 +55,11 @@
         <article class="scope-card"><p class="eyebrow">05 / GIS reproducibility</p><h3>Map inputs and execution environment</h3><p>Verified the network-map package from its multipart transport through source and input pins, then inspected ArcGIS, library and license requirements for an exact rebuild.</p><p class="scope-result">Seven parts, 503 archive members, 502 package pins and 244 input pins checked. I documented the environment mismatch and the remaining rebuild dependency.</p><p class="caption">The completed input audit and the pending map rebuild are recorded as separate stages.</p></article>
         <article class="scope-card"><p class="eyebrow">06 / Research infrastructure</p><h3>Evidence lineage and reliable workflows</h3><p>Maintained a searchable HTML evidence workbench, contributor/version catalogs, use records, review queues and documented handoffs. I also diagnosed a Windows process-liveness defect and developed a separately attributed fix with Codex assistance.</p><p class="scope-result">The fix passed 18 native tests, six exchange integration checks and eight new owner regressions. I verified installation and exact source reconstruction for the multipart context reader.</p><p class="caption">These tools preserve the evidence chain and make research reproducible across work sessions.</p></article>
       </div>
-      <a class="text-link" href="screwworm-verification.html?v=readable-3">Explore the full work and delivery record <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="screwworm-verification.html?v=draft-20261021">Explore the full work and delivery record <span aria-hidden="true">↗</span></a>
     </section>
 
     <section class="section" aria-labelledby="results"><div class="section-title"><h2 id="results">Examples of reproduced results</h2><span class="section-number">EXECUTED CHECKS</span></div>
-      <div class="table-scroll"><table><caption>Selected verification outputs from the saved research record</caption><thead><tr><th scope="col">Work</th><th scope="col">What I reproduced or verified</th><th scope="col">Why it matters</th></tr></thead><tbody>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="Reproduced result examples; scroll horizontally on narrow screens"><table><caption>Selected verification outputs from the saved research record</caption><thead><tr><th scope="col">Work</th><th scope="col">What I reproduced or verified</th><th scope="col">Why it matters</th></tr></thead><tbody>
         <tr><th scope="row">Environmental summaries</th><td>4,752 summary groups using exact arithmetic; 198 station-month entries; 96 raster-footprint comparisons.</td><td>Tests whether reported environmental context follows from the actual observations, raster support and aggregation method.</td></tr>
         <tr><th scope="row">Rainfall validation</th><td>Normal-ratio predictions and allocation/exclusion metrics; radar cell extraction, storm comparisons and historical monthly masks.</td><td>Tests the methods and exposes sensitivity to daily timing, missing-value handling and validation design.</td></tr>
         <tr><th scope="row">Historical radar audit</th><td>288 retained source dates across 18 distinct months; exact agreement for 216 monthly cases, 2,376 hidden daily rows and 24 metric rows.</td><td>Makes the reported validation reproducible and supports checking the interpretation of its errors.</td></tr>
@@ -70,10 +70,11 @@
     </section>
 
     <div class="project-sections">
-      <section aria-labelledby="delivery"><h2 id="delivery">What I returned to the Hub</h2>
+      <section aria-labelledby="verification-meaning"><h2 id="verification-meaning">What verification involves</h2><p>I check evidence at several levels: a file check confirms exact retained bytes; a source-fidelity check compares a table with its recorded source; a calculation reproduction recomputes the method and compares the result. Together, these checks establish what was received, how it was processed and whether the reported output follows from that processing.</p><p>A checked “slot” is a position in a data series and can contain a value or an explicit missing entry. A source “pin” is a recorded file identity used to bind a result to its input version. These counts describe checks, not independent animals, detections or evidence that a transmission hypothesis is true.</p></section>
+<section aria-labelledby="delivery"><h2 id="delivery">What I returned to the Hub</h2>
         <p>My returns include environmental source audits and descriptive assessments, source-compatibility and coverage reports, reproduced calculations, exception registers, reviewed rainfall comparisons, corrected statement supplements, evidence-index updates and software verification results.</p>
         <p>The project lead explicitly accepted my completed v05 environmental review for its documented checks, data handling and descriptive assessment. Other returns preserve their exact review state. The approved rainfall comparison and calculation supplement were delivered for further lead review; the completed chronology reproduction has a separate final-review step.</p>
-        <p><a href="screwworm-verification.html?v=readable-3">The full record</a> covers all 30 tracked work orders, their contribution and result, and separates completed work from the remaining review, data, scope and environment dependencies.</p>
+        <p><a href="screwworm-verification.html?v=draft-20261021">The full record</a> covers all 30 tracked work orders, their contribution and result, and separates completed work from the remaining review, data, scope and environment dependencies.</p>
       </section>
       <section aria-labelledby="lessons"><h2 id="lessons">What the verification changed</h2>
         <p>Source review determines how evidence can enter the assessment. My checks preserve missing rainfall instead of manufacturing dry days, separate publication dates from event dates, retain animal/trap and source-measure distinctions, and identify duplicate reports before aggregation. Geographic and product differences travel with the results.</p>
@@ -87,7 +88,7 @@
         <p>Project purpose comes from the original ten-page brief delivered by the Hub. Work claims were traced through project work orders, received research releases, verification and reproduction results, outbound payloads and delivery records. The audit reconciled received and sent versions with the project lead’s current package archive.</p>
         <p>Original agency data and teammate contributions retain their credit. My contribution is the cross-workstream verification, reproduction, compatibility assessment and documented returns described here. Private review histories, contact details and raw team packages remain outside this public portfolio.</p>
       </section>
-      <nav class="actions project-navigation" aria-label="Project navigation"><a class="button" href="screwworm-verification.html?v=readable-3">Full verification record <span aria-hidden="true">↗</span></a><a class="text-link" href="projects.html?v=readable-3">All projects</a></nav>
+      <nav class="actions project-navigation" aria-label="Project navigation"><a class="button" href="screwworm-verification.html?v=draft-20261021">Full verification record <span aria-hidden="true">↗</span></a><a class="text-link" href="projects.html?v=draft-20261021">All projects</a></nav>
     </div>
   </div></main>
   <footer class="site-footer">

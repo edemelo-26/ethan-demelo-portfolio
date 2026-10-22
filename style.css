@@ -413,3 +413,21 @@ table { font-size: 16px; }
   .capstone-diagram, .diagram-sources li, .diagram-process, .diagram-output { color: #000000; background: #ffffff; border-color: #777777; }
   .capstone-diagram .diagram-kicker, .diagram-output span { color: #333333; }
 }
+
+/* Draft review: readable project context precedes each full-width graphic. */
+.career-direction { max-width: 470px; margin-top: 24px; color: #e0d6dc; font-size: 18px; line-height: 1.65; }
+.bivariate-key { position: relative; max-width: 850px; width: 100%; padding: 26px; background: #100d11; border: 1px solid #8b6477; }
+.bivariate-key .diagram-kicker { font: 14px/1.6 var(--mono); color: #f0bfd0; }
+.key-axis { color: #f6e3ed; font-size: 16px; }
+.bivariate-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.bivariate-grid span { padding: 18px 10px; min-height: 92px; border: 1px solid #b9879e; background: #25131e; color: #ffffff; font-size: 16px; line-height: 1.5; }
+.bivariate-grid span:nth-child(2), .bivariate-grid span:nth-child(4) { background: #382335; }
+.bivariate-grid span:nth-child(3), .bivariate-grid span:nth-child(5), .bivariate-grid span:nth-child(7) { background: #500000; }
+.bivariate-grid span:nth-child(6), .bivariate-grid span:nth-child(8), .bivariate-grid span:nth-child(9) { background: #693049; }
+.figure-legend { max-width: 1120px; padding: 24px; margin-top: 24px; background: #111013; border: 1px solid #65505c; }
+.figure-legend ul { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px 28px; padding: 0; margin: 14px 0; list-style: none; }
+.figure-legend li { display: flex; gap: 12px; align-items: center; margin: 0; font-size: 16px; }
+.class-chip { display: inline-block; flex: 0 0 20px; height: 20px; border: 1px solid #d8d1d5; }
+.class-zero { background: #000000; } .class-one { background: #00ff00; } .class-two { background: #ffff00; } .class-three { background: #0000ff; } .class-four { background: #ff0000; }
+.skills-evidence { max-width: 900px; color: #ded5da; font-size: 17px; margin-bottom: 30px; }
+@media(max-width:580px) { .bivariate-key { padding: 20px 14px; } .bivariate-grid { gap: 5px; } .bivariate-grid span { font-size: 14px; padding: 12px 6px; } .figure-legend { padding: 22px 18px; } .figure-legend ul { grid-template-columns: 1fr; } }
