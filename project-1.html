@@ -2,29 +2,29 @@
 
 <html data-theme="dark" lang="en">
 <head>
-<meta charset="utf-8"/><script>try { const t = localStorage.getItem('portfolio-theme'); if (t === 'light') document.documentElement.dataset.theme = 'light'; } catch (_) {}</script>
+<meta charset="utf-8"/><script src="">try { const t = localStorage.getItem('portfolio-theme'); if (t === 'light') document.documentElement.dataset.theme = 'light'; } catch (_) {}</script>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="GNSS and ArcGIS Field Maps coursework mapping beverage vending machines in Texas A&amp;M’s East Quad." name="description"/>
 <meta content="dark light" name="color-scheme"/>
 <title>Vending Machine Tracker | Ethan DeMelo</title>
 <link crossorigin="" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" rel="stylesheet"/>
-<link href="style.css?v=expanded-20261022" rel="stylesheet"/>
+<link href="style.css?v=polish-20261022" rel="stylesheet"/>
 <meta content="#000000" name="theme-color"/>
-<link href="assets/ed-mark.svg" rel="icon" type="image/svg+xml"/>
-<script defer="" src="site.js?v=expanded-20261022"></script>
+<link href="assets/ring-logo.webp" rel="icon" type="image/webp"/>
+<script defer="" src="site.js?v=polish-20261022"></script>
 </head>
 <body data-project-theme="field" id="top">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
 <div class="wrap header-inner">
-<a class="brand" href="index.html?v=expanded-20261022"><img alt="" aria-hidden="true" class="brand-mark" height="36" src="assets/ed-mark.svg" width="36"/>Ethan DeMelo</a>
+<a class="brand" href="index.html?v=polish-20261022"><img alt="" aria-hidden="true" class="brand-mark" height="36" src="assets/ring-logo.webp" width="36"/>Ethan DeMelo</a>
 <nav aria-label="Main navigation">
-<a href="index.html?v=expanded-20261022">Home</a>
-<a href="about.html?v=expanded-20261022">About</a>
-<a aria-current="location" href="projects.html?v=expanded-20261022">Projects</a>
-<a href="resume.html?v=expanded-20261022">Resume</a>
+<a href="index.html?v=polish-20261022">Home</a>
+<a href="about.html?v=polish-20261022">About</a>
+<a aria-current="location" href="projects.html?v=polish-20261022">Projects</a>
+<a href="resume.html?v=polish-20261022">Resume</a>
 </nav>
-<label class="theme-switch"><span>Dark</span><input aria-label="Light theme" id="theme-toggle" role="switch" type="checkbox"/><span>Light</span></label></div>
+<div class="header-actions"><a aria-label="Connect with Ethan DeMelo on LinkedIn" class="linkedin-link" href="https://www.linkedin.com/in/ethan-demelo-tamu26" rel="noopener noreferrer" target="_blank"><span aria-hidden="true" class="linkedin-glyph">in</span><span class="social-label">LinkedIn</span></a><label class="theme-switch"><span>Dark</span><input aria-label="Light theme" id="theme-toggle" role="switch" type="checkbox"/><span>Light</span></label></div></div>
 </header>
 <main id="main"><div class="wrap">
 <section aria-labelledby="page-title" class="page-hero">
@@ -32,7 +32,6 @@
 <h1 id="page-title">Vending Machine Tracker</h1>
 <p class="page-intro">Using Global Navigation Satellite System (GNSS) field observations to map beverage vending machines and their recorded stock in Texas A&amp;M’s East Quad.</p>
 </section><div aria-label="Campus map and complete poster" class="gallery" data-gallery="" role="group"><figure data-slide=""><a aria-label="Open full-size: East Quad vending-machine locations" href="assets/vending-machine-map.png" rel="noopener noreferrer" target="_blank"><img alt="East Quad vending-machine locations" loading="lazy" src="assets/vending-machine-map.png"/></a><figcaption><strong>East Quad vending-machine locations</strong>Original campus map from our group poster. Location uncertainty and duplicate source coordinates remain documented below.<br/><a class="zoom-link" href="assets/vending-machine-map.png" rel="noopener noreferrer" target="_blank">Open full-size figure ↗</a></figcaption></figure><figure data-slide=""><a aria-label="Open full-size: Vending Machine Drink Stock · full group poster" href="assets/vending-full-poster.png" rel="noopener noreferrer" target="_blank"><img alt="Vending Machine Drink Stock · full group poster" loading="lazy" src="assets/vending-full-poster.png"/></a><figcaption><strong>Vending Machine Drink Stock · full group poster</strong>Original poster slide exported at its 4:3 aspect ratio. Naomi Madrid, KC Hinojosa, Slone Early, Ethan DeMelo, Elizabeth Jones and Betty Dixon; GEOG 352.<br/><a class="zoom-link" href="assets/vending-full-poster.png" rel="noopener noreferrer" target="_blank">Open full-size figure ↗</a></figcaption></figure><div class="gallery-controls" hidden=""><button aria-label="Previous figure" data-prev="" type="button">← Prev</button><output aria-live="polite" data-counter="">1 / 2</output><button aria-label="Next figure" data-next="" type="button">Next →</button></div></div>
-
 <div class="case-layout"><div class="case-main"><nav aria-label="On this project page" class="page-contents"><a href="#problem">Problem</a><a href="#role">My role</a><a href="#method">Method</a><a href="#map-title">Map</a><a href="#findings">Findings</a><a href="#changes">Next time</a></nav><div class="project-sections"><section aria-labelledby="problem"><h2 id="problem">The problem</h2><p>Where are beverage vending machines in the East Quad, and how reliably are they stocked? Our group investigated differences in machine locations, drink variety, and observed stock.</p></section><section aria-labelledby="role"><h2 id="role">My role</h2><p>I collected georeferenced vending-machine points and attributes with ArcGIS Field Maps and produced maps as part of the group project. The findings below come from our team’s poster.</p></section><section aria-labelledby="method"><h2 id="method">Data and method</h2><p>Our team created a shared vending-machine feature layer in ArcGIS Online, assigned buildings to group members, and collected observations with ArcGIS Field Maps. We recorded machine type and location on the first visit, then gathered stock observations over three days. Drink and location records were stored in a shared Google Sheet.</p><p>The group compared average drink availability across those visits. The map below uses only the coordinates reported in the poster.</p></section></div><section aria-labelledby="map-title" class="section">
 <div class="section-title"><h2 id="map-title">Vending machine locations</h2><span class="section-number">SOURCE POINTS</span></div>
 <div class="map-frame"><div class="map-heading"><span>East Quad, Texas A&amp;M University</span><span>Esri World Topographic Map</span></div><div aria-label="Interactive map of vending-machine coordinates from the project poster" hidden="" id="vending-map"></div></div>
@@ -42,17 +41,17 @@
 <details class="data-disclosure"><summary>View source coordinates</summary><div class="table-scroll"><table><caption class="caption">Coordinates transcribed from the group poster.</caption><thead><tr><th scope="col">Building</th><th scope="col">Latitude</th><th scope="col">Longitude</th></tr></thead><tbody><tr><td><button class="locate" data-point="0" disabled="" type="button">Eller Oceanography and Meteorology Building</button></td><td>30.617674</td><td>-96.336775</td></tr><tr><td><button class="locate" data-point="1" disabled="" type="button">Liberal Arts and Humanities Building</button></td><td>30.617610</td><td>-96.337914</td></tr><tr><td><button class="locate" data-point="2" disabled="" type="button">Langford Architecture Building (A)</button></td><td>30.618900</td><td>-96.337800</td></tr><tr><td><button class="locate" data-point="3" disabled="" type="button">AI Engineering Building</button></td><td>30.617610</td><td>-96.337914</td></tr><tr><td><button class="locate" data-point="4" disabled="" type="button">Computing Services Center</button></td><td>30.616550</td><td>-96.337120</td></tr><tr><td><button class="locate" data-point="5" disabled="" type="button">Teague Research Center</button></td><td>30.617255</td><td>-96.336009</td></tr><tr><td><button class="locate" data-point="6" disabled="" type="button">Computing Services Annex</button></td><td>30.617440</td><td>-96.337240</td></tr><tr><td><button class="locate" data-point="7" disabled="" type="button">Commons Dining Hall</button></td><td>30.615289</td><td>-96.335984</td></tr></tbody></table></div><p class="caption">No coordinate supplied: Langford B, Langford C, and Scoates Hall. No replacement points were added.</p></details>
 <noscript><p>The interactive map needs JavaScript. The original figure and coordinate table remain available.</p></noscript>
 </section><div class="project-sections"><section aria-labelledby="findings"><h2 id="findings">What I found</h2><p>Our group found that Langford Architecture Building A offered the widest drink variety and highest stock in the collected sample. The poster also reports consistently limited stock at the Commons Dining Hall and notes that some buildings had no machine.</p><p>The poster identifies indoor and nearby-building interference as a limitation when collecting location points. Some machines concealed their inventory, making stock observations harder to interpret.</p></section><section aria-labelledby="changes"><h2 id="changes">What I would do differently</h2><p>I would verify the repeated coordinates against the original field observations, document GNSS collection conditions, and distinguish visible stock from machines whose inventory could not be checked. Those changes would make the map’s location and availability limits clearer.</p></section><section aria-labelledby="source"><h2 id="source">Project source</h2><p>GEOG 352 group project poster, Spring 2025. The location map and source coordinates are reproduced from that coursework; the reflection describes proposed future improvements.</p></section><nav aria-label="Project navigation" class="actions project-navigation">
-<a class="text-link" href="projects.html?v=expanded-20261022">All projects</a>
-<a class="text-link" href="project-2.html?v=expanded-20261022">Next: cartography <span aria-hidden="true">→</span></a>
+<a class="text-link" href="projects.html?v=polish-20261022">All projects</a>
+<a class="text-link" href="project-2.html?v=polish-20261022">Next: cartography <span aria-hidden="true">→</span></a>
 </nav></div></div><aside aria-label="Project facts" class="case-meta"><h2>Project facts</h2><dl><div><dt>My role</dt><dd>Field Maps collection and map production</dd></div><div><dt>Context</dt><dd>GEOG 352 · team coursework</dd></div><div><dt>Tools</dt><dd>GNSS · ArcGIS Field Maps · ArcGIS Online</dd></div><div><dt>Location records</dt><dd>Eight records; seven distinct coordinates</dd></div></dl></aside></div></div></main>
 <footer class="site-footer">
 <div class="wrap footer-inner">
 <p><span class="footer-name">Ethan DeMelo</span><br/>GIS, field mapping, and remote sensing.</p>
-<a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+<a class="footer-linkedin" href="https://www.linkedin.com/in/ethan-demelo-tamu26" rel="noopener noreferrer" target="_blank">Connect on LinkedIn <span aria-hidden="true">↗</span></a><a href="#top">Back to top <span aria-hidden="true">↑</span></a>
 </div>
 </footer>
 <script crossorigin="" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
+<script src="">
 'use strict';
 const vendingPoints = [{"name": "Eller Oceanography and Meteorology Building", "lat": 30.617674, "lng": -96.336775}, {"name": "Liberal Arts and Humanities Building", "lat": 30.61761, "lng": -96.337914}, {"name": "Langford Architecture Building (A)", "lat": 30.6189, "lng": -96.3378}, {"name": "AI Engineering Building", "lat": 30.61761, "lng": -96.337914}, {"name": "Computing Services Center", "lat": 30.61655, "lng": -96.33712}, {"name": "Teague Research Center", "lat": 30.617255, "lng": -96.336009}, {"name": "Computing Services Annex", "lat": 30.61744, "lng": -96.33724}, {"name": "Commons Dining Hall", "lat": 30.615289, "lng": -96.335984}];
 const mapElement = document.getElementById('vending-map');

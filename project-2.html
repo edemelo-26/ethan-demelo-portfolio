@@ -2,28 +2,28 @@
 
 <html data-theme="dark" lang="en">
 <head>
-<meta charset="utf-8"/><script>try { const t = localStorage.getItem('portfolio-theme'); if (t === 'light') document.documentElement.dataset.theme = 'light'; } catch (_) {}</script>
+<meta charset="utf-8"/><script src="">try { const t = localStorage.getItem('portfolio-theme'); if (t === 'light') document.documentElement.dataset.theme = 'light'; } catch (_) {}</script>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="A bivariate county-level population map and ArcGIS StoryMap from Ethan DeMelo’s cartography coursework." name="description"/>
 <meta content="dark light" name="color-scheme"/>
 <title>Population Cartography | Ethan DeMelo</title>
-<link href="style.css?v=expanded-20261022" rel="stylesheet"/>
+<link href="style.css?v=polish-20261022" rel="stylesheet"/>
 <meta content="#000000" name="theme-color"/>
-<link href="assets/ed-mark.svg" rel="icon" type="image/svg+xml"/>
-<script defer="" src="site.js?v=expanded-20261022"></script>
+<link href="assets/ring-logo.webp" rel="icon" type="image/webp"/>
+<script defer="" src="site.js?v=polish-20261022"></script>
 </head>
 <body data-project-theme="cartography" id="top">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
 <div class="wrap header-inner">
-<a class="brand" href="index.html?v=expanded-20261022"><img alt="" aria-hidden="true" class="brand-mark" height="36" src="assets/ed-mark.svg" width="36"/>Ethan DeMelo</a>
+<a class="brand" href="index.html?v=polish-20261022"><img alt="" aria-hidden="true" class="brand-mark" height="36" src="assets/ring-logo.webp" width="36"/>Ethan DeMelo</a>
 <nav aria-label="Main navigation">
-<a href="index.html?v=expanded-20261022">Home</a>
-<a href="about.html?v=expanded-20261022">About</a>
-<a aria-current="location" href="projects.html?v=expanded-20261022">Projects</a>
-<a href="resume.html?v=expanded-20261022">Resume</a>
+<a href="index.html?v=polish-20261022">Home</a>
+<a href="about.html?v=polish-20261022">About</a>
+<a aria-current="location" href="projects.html?v=polish-20261022">Projects</a>
+<a href="resume.html?v=polish-20261022">Resume</a>
 </nav>
-<label class="theme-switch"><span>Dark</span><input aria-label="Light theme" id="theme-toggle" role="switch" type="checkbox"/><span>Light</span></label></div>
+<div class="header-actions"><a aria-label="Connect with Ethan DeMelo on LinkedIn" class="linkedin-link" href="https://www.linkedin.com/in/ethan-demelo-tamu26" rel="noopener noreferrer" target="_blank"><span aria-hidden="true" class="linkedin-glyph">in</span><span class="social-label">LinkedIn</span></a><label class="theme-switch"><span>Dark</span><input aria-label="Light theme" id="theme-toggle" role="switch" type="checkbox"/><span>Light</span></label></div></div>
 </header>
 <main id="main"><div class="wrap">
 <section aria-labelledby="page-title" class="page-hero">
@@ -31,19 +31,18 @@
 <h1 id="page-title">U.S. Population and Hispanic/Latino Concentration</h1>
 <p class="page-intro">A county-level bivariate map presented through ArcGIS StoryMaps.</p>
 </section>
-
 <div class="case-layout"><div class="case-main"><nav aria-label="On this project page" class="page-contents"><a href="#problem">Problem</a><a href="#role">My role</a><a href="#method">Method</a><a href="#story-title">StoryMap</a><a href="#findings">Findings</a><a href="#changes">Next time</a></nav><div class="project-sections"><section aria-labelledby="problem"><h2 id="problem">The problem</h2><p>How can a map show the relationship between total population and Hispanic/Latino population share across U.S. counties? My project explored those patterns for an audience of policymakers, community organizations, researchers, and educators.</p></section><section aria-labelledby="role"><h2 id="role">My role</h2><p>I designed the bivariate choropleth, wrote and assembled the StoryMap, gathered feedback, and revised the presentation. The final project report documents changes to the initial map view, legend explanation, and title.</p></section><section aria-labelledby="method"><h2 id="method">Data and method</h2><p>The report identifies U.S. Census Bureau TIGER/Line county and state boundaries and American Community Survey population data. I paired total population with Hispanic/Latino population percentage in a bivariate choropleth, using three quantile classes for each variable.</p><p>A bivariate map represents two variables in each county. Three relative classes per variable produce nine combinations, making population size and population share readable together. Quantile classes group counties by their ranked values; they do not mean a universal set of percentage breaks. I experimented with classification and color choices in ArcGIS Pro, then presented the map in ArcGIS StoryMaps.</p><p class="caption">The supplied StoryMap screenshot credits ACS 2019–2023 five-year estimates, Table B03001. The earlier written report did not record its estimate vintage.</p></section></div><section aria-labelledby="story-title" class="section">
 <div class="section-title"><h2 id="story-title">Explore the StoryMap</h2><span class="section-number">ARCGIS STORYMAPS</span></div>
 <div class="storymap-shell"><p>The original interactive StoryMap uses Texas A&amp;M ArcGIS access. The actual map and legend are shown below as a static screenshot.</p><a class="button" href="https://arcg.is/0Tzvr80" rel="noopener noreferrer" target="_blank">Open Interactive StoryMap in New Tab (Requires Texas A&amp;M ArcGIS Sign-In) ↗</a></div><div aria-label="Original population StoryMap map" class="gallery" data-gallery="" role="group"><figure data-slide=""><a aria-label="Open full-size: U.S. county-level bivariate population map and legend" href="assets/population-storymap.png" rel="noopener noreferrer" target="_blank"><img alt="U.S. county-level bivariate population map and legend" loading="lazy" src="assets/population-storymap.png"/></a><figcaption><strong>U.S. county-level bivariate population map and legend</strong>Actual StoryMap screenshot supplied by Ethan on October 22, 2026. Footer credits U.S. Census Bureau ACS 2019–2023 five-year estimates, Table B03001; Esri and basemap providers as shown.<br/><a class="zoom-link" href="assets/population-storymap.png" rel="noopener noreferrer" target="_blank">Open full-size figure ↗</a></figcaption></figure><div class="gallery-controls" hidden=""><button aria-label="Previous figure" data-prev="" type="button">← Prev</button><output aria-live="polite" data-counter="">1 / 1</output><button aria-label="Next figure" data-next="" type="button">Next →</button></div></div>
 <noscript><p>Use the link above to open the original StoryMap.</p></noscript>
 <div aria-label="Bivariate legend explained in text" class="bivariate-legend" role="group"><div aria-hidden="true" class="bivariate-swatches"><i style="background:#db4ca2"></i><i style="background:#8b348e"></i><i style="background:#311880"></i><i style="background:#c99cce"></i><i style="background:#9486bc"></i><i style="background:#468bb7"></i><i style="background:#e8e6ed"></i><i style="background:#a1cedf"></i><i style="background:#4aafd1"></i></div><div><p><strong>Total population increases upward ↑</strong><br/><strong>Hispanic/Latino population share increases to the right →</strong></p><p>Upper left: higher total, lower share. Upper right: higher total, higher share. Lower left: lower total, lower share. Lower right: lower total, higher share.</p><p class="caption">Three relative classes per variable. The screenshot does not show numeric class breaks. Swatches explain the original legend; they do not recolor the map.</p></div></div></section><div class="project-sections"><section aria-labelledby="findings"><h2 id="findings">What I found</h2><p>The pattern I described extended beyond states along the U.S.-Mexico border. My report also discusses Florida and concentrations in Washington, New York, and the Chicago area. The mapped patterns describe geographic variation; the map alone does not establish why those patterns occurred.</p></section><section aria-labelledby="changes"><h2 id="changes">What I would do differently</h2><p>I would document the exact ACS estimate period, test the classification breaks and legend labels with readers, and make the final StoryMap accessible without a university sign-in. I would also separate what the map shows from explanations that need additional evidence.</p></section><section aria-labelledby="source"><h2 id="source">Project source</h2><p>GEOG 232 final cartography project, Fall 2024, including the final StoryMap link and written method and interpretation. The reflection describes proposed improvements.</p></section><nav aria-label="Project navigation" class="actions project-navigation">
-<a class="text-link" href="projects.html?v=expanded-20261022">All projects</a>
-<a class="text-link" href="project-3.html?v=expanded-20261022">Next: remote sensing <span aria-hidden="true">→</span></a>
+<a class="text-link" href="projects.html?v=polish-20261022">All projects</a>
+<a class="text-link" href="project-3.html?v=polish-20261022">Next: remote sensing <span aria-hidden="true">→</span></a>
 </nav></div></div><aside aria-label="Project facts" class="case-meta"><h2>Project facts</h2><dl><div><dt>My role</dt><dd>Bivariate map and StoryMap design</dd></div><div><dt>Context</dt><dd>GEOG 232 · Fall 2024</dd></div><div><dt>Screenshot source</dt><dd>ACS 2019–2023 five-year estimates · B03001</dd></div><div><dt>Access</dt><dd>Static map here; interactive StoryMap requires university sign-in</dd></div></dl></aside></div></div></main>
 <footer class="site-footer">
 <div class="wrap footer-inner">
 <p><span class="footer-name">Ethan DeMelo</span><br/>GIS, field mapping, and remote sensing.</p>
-<a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+<a class="footer-linkedin" href="https://www.linkedin.com/in/ethan-demelo-tamu26" rel="noopener noreferrer" target="_blank">Connect on LinkedIn <span aria-hidden="true">↗</span></a><a href="#top">Back to top <span aria-hidden="true">↑</span></a>
 </div>
 </footer>
 </body>
